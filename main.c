@@ -2,7 +2,7 @@
 
 // İSİM SOYİSİM: Güven Arda Yılmaz
 // ÖĞRENCİ NUMARASI: 2420161021
-// BTK AKADEMİ SERTİFİKA BAĞLANTISI: Yx1h84Lp1J
+// BTK AKADEMİ SERTİFİKA BAĞLANTISI: https://www.btkakademi.gov.tr/portal/certificate/validate?certificateId=Yx1h84Lp1J
 
 void dizi_yazdir(float dizi[], int BOYUT) {
     int i;
