@@ -18,7 +18,6 @@ void takas(float *ap, float *bp) {
     *bp = gecici;
 }
 
-// Ders 08: Baloncuk Sıralama - Küçükten Büyüğe
 void baloncuk_sirala(float dizi[], int BOYUT) {
     int i, j, takas_oldu;
     for (i = 1; i < BOYUT; i++) {
@@ -33,7 +32,6 @@ void baloncuk_sirala(float dizi[], int BOYUT) {
     }
 }
 
-// Ders 07: İkili Arama (Binary Search)
 int ikili_arama(float dizi[], int n, float aranan) {
     int ilk = 0, son = n - 1, orta;
     while (ilk <= son) {
