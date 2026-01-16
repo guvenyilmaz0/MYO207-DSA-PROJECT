@@ -36,11 +36,11 @@ int ikili_arama(float dizi[], int n, float aranan) {
     int ilk = 0, son = n - 1, orta;
     while (ilk <= son) {
         orta = (ilk + son) / 2; //
-        if (dizi[orta] == aranan) return orta; // SONUÇ = BULUNDU
-        else if (aranan > dizi[orta]) ilk = orta + 1; //
-        else son = orta - 1; //
+        if (dizi[orta] == aranan) return orta;
+        else if (aranan > dizi[orta]) ilk = orta + 1;
+        else son = orta - 1;
     }
-    return -1; // SONUÇ = BULUNAMADI
+    return -1;
 }
 
 int main() {
@@ -59,8 +59,8 @@ int main() {
 
     sonuc = ikili_arama(A, N, aranan_deger);
 
-    if (sonuc != -1) printf("SONUC = BULUNDU (Indis: %d)\n", sonuc); //
-    else printf("SONUC = BULUNAMADI\n"); //
+    if (sonuc != -1) printf("SONUC = BULUNDU (Indis: %d)\n", sonuc);
+    else printf("SONUC = BULUNAMADI\n");
 
     return 0;
 }
