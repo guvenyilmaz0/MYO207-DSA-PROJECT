@@ -52,17 +52,14 @@ int main() {
     float aranan_deger;
     int sonuc;
 
-    // 1. Sıralama İşlemi (Arama için şarttır)
     baloncuk_sirala(A, N);
 
     printf("Siralanmis Dizi: ");
     dizi_yazdir(A, N);
 
-    // 2. Kullanıcıdan değer alma
     printf("\nAranacak degeri giriniz (Orn: 1.82): ");
     scanf("%f", &aranan_deger);
 
-    // 3. İkili Arama işlemi
     sonuc = ikili_arama(A, N, aranan_deger);
 
     if (sonuc != -1) printf("SONUC = BULUNDU (Indis: %d)\n", sonuc); //
