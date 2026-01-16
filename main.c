@@ -44,7 +44,6 @@ int ikili_arama(float dizi[], int n, float aranan) {
 }
 
 int main() {
-    // Dizi elemanları güncellendi
     float A[] = {1.75, 1.82, 1.68, 1.94, 1.60, 1.88, 1.70};
     int N = sizeof(A) / sizeof(A[0]);
     float aranan_deger;
